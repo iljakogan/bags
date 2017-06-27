@@ -10,15 +10,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "mongodb": "^2.2.5",
-    "mongoose": "^4.5.9"
+    "body-parser": "^1.17.2",
+    "content-filter": "^1.1.1",
+    "easyjson": "^0.1.2",
+    "express": "^4.15.3",
+    "he": "^1.1.1",
+    "jsonfile": "^3.0.0",
+    "mongo-xlsx": "^1.0.12",
+    "mongodb": "^2.2.29",
+    "mongoose": "^4.10.8",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
   },
   "devDependencies": {
     "expect": "^1.20.2",
-    "mocha": "^3.0.2",
-    "nodemon": "^1.10.2",
-    "supertest": "^2.0.0"
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
   }
 }
